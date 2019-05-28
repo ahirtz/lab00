@@ -3,12 +3,12 @@
 apt-get update -q
 apt-get upgrade -y
 apt-get install -y git nginx
-rm /etc/nginx/sites-enabled/default 
+rm /etc/nginx/sites-enabled/default
 cat > /etc/nginx/conf.d/webapp.conf <<EOF
 server {
-    listen 80;
-    server_name _;
-    root /var/webapp;
+   listen 8080;
+   server_name _;
+   root /var/webapp;
 }
 EOF
 HOST=`hostname`
