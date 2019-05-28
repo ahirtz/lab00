@@ -1,0 +1,43 @@
+# IDE
+.vscode
+.idea
+.classpath
+.project
+
+# Notebook
+.ipynb_checkpoints
+**.iml
+
+# Python
+__pycache__/
+*.pyc
+venv
+.env
+
+# Lambdas
+**/lambdas/**/python/
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
+init_tf/
+backend.tf
+
+# Tools
+.bin/
+
+# Archives
+*.zip
+
+# Libs
+/glue/swamp-to-tank/libs/
+!/glue/swamp-to-tank/libs/README.md
+**/target/
+
+# Java
+target/
+
+#VSC
+.vscode/
